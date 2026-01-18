@@ -15,7 +15,13 @@ This repository contains additional projects on developing RAGs using LLMs and e
 - Implemented query expansion to generate multiple semantically related queries
 - Generated hypothetical questions (HyDE-style) to bridge user queries and document language
 
-**PROJECT 3:** Adding foundational multimodal document parsing and indexing pipeline:
+**PROJECT 3:** Adding a foundational multimodal document parsing and indexing pipeline:
 - Parsed a multimodal laptop manual containing text, tables, and images using LlamaParse
 - Generated textual descriptions for tables and images to enable semantic indexing
 - Chunked and processed extracted text for embedding generation
+
+**PROJECT 4:** Exploring RAG generation improvements using compression and re-ranking:
+- Retrieved top-k (k=3) relevant document chunks for a given query
+- Applied a compression retriever to summarize and select the most salient document for the generation context
+- Implemented re-ranking to reorder the top-k retrieved chunks based on semantic relevance
+- Observed and compared differences between compression-based selection and re-ranking order
