@@ -25,3 +25,8 @@ This repository contains additional projects on developing RAGs using LLMs and e
 - Applied a compression retriever to summarize and select the most salient document for the generation context
 - Implemented re-ranking to reorder the top-k retrieved chunks based on semantic relevance
 - Observed and compared differences between compression-based selection and re-ranking order
+
+**PROJECT 5:** Adding a foundational RAG evaluation pipeline using DeepEval:
+- Evaluated RAG outputs using DeepEval with RAG Triad metrics (answer relevancy, faithfulness, contextual relevancy)
+- Added RAGAS metrics (answer relevancy, faithfulness, contextual precision, contextual recall)
+- Compared RAG outputs with and without human baseline (gold) responses
