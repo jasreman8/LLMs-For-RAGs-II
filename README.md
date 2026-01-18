@@ -10,3 +10,8 @@ This repository contains additional projects on developing RAGs using LLMs and e
 - Added RAGAS evaluation (answer relevancy, faithfulness, contextual precision, contextual recall)
 - Explored retrieval improvements via query expansion and hypothetical question (HyDE-style) prompting
 
+**PROJECT 2:** Implementing query expansion and hypothetical questions for RAG retrieval learning:
+- Created an ephemeral ChromaDB vector store with a small document corpus
+- Implemented query expansion to generate multiple semantically related queries
+- Generated hypothetical questions (HyDE-style) to bridge user queries and document language
+
