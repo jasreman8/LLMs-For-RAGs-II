@@ -15,3 +15,7 @@ This repository contains additional projects on developing RAGs using LLMs and e
 - Implemented query expansion to generate multiple semantically related queries
 - Generated hypothetical questions (HyDE-style) to bridge user queries and document language
 
+**PROJECT 3:** Adding foundational multimodal document parsing and indexing pipeline:
+- Parsed a multimodal laptop manual containing text, tables, and images using LlamaParse
+- Generated textual descriptions for tables and images to enable semantic indexing
+- Chunked and processed extracted text for embedding generation
